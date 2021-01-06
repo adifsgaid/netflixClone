@@ -1,12 +1,13 @@
-import React  from 'react';
-import '../app/assets/stylesheets/App.css';
+import React from 'react'
+import ReactDOM from 'react-dom'
+import { BrowserRouter as Router, Route } from 'react-router-dom'
+import App from '../src/components/App'
 
-function App() {
-  return (
-    <div className="app">
-    <h1>Hello</h1>
-    </div>
-  );
-}
-
-export default App;
+document.addEventListener('DOMContentLoaded', () => {
+  ReactDOM.render(
+    <Router>
+      <Route path="/" component={App}/>
+    </Router>,
+    document.body.appendChild(document.createElement('div')),
+  )
+})
