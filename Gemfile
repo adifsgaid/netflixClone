@@ -19,7 +19,7 @@ gem "react_on_rails", "12.0.4" # Update to the current version
 gem "webpacker", "~> 5"
 # Use Active Storage variant
 # gem 'image_processing', '~> 1.2'
-
+gem 'devise'
 # Reduces boot times through caching; required in config/boot.rb
 gem 'bootsnap', '>= 1.4.4', require: false
 
