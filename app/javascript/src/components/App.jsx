@@ -3,11 +3,13 @@ import "../../../assets/stylesheets/App.css";
 import Row from "./Row";
 import requests from "../../services/requests";
 import Banner from "./Banner";
+import Nav from "./Nav";
 
 class App extends React.Component {
   render() {
     return (
       <div className="App">
+        <Nav />
         <Banner />
         <Row
           title="NETFLIX ORIGINAL"
