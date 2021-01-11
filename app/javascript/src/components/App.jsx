@@ -11,6 +11,7 @@ class App extends React.Component {
         <Row
           title="NETFLIX ORIGINAL"
           fetchUrl={requests.fetchNetflixOriginals}
+          isLargeRow
         />
         <Row title="Top Rated" fetchUrl={requests.fetchTopRated} />
         <Row title="Comedy" fetchUrl={requests.fetchComedyMovies} />
