@@ -9,6 +9,7 @@
   padding: 20px;
 }
 .row__poster {
+  cursor: pointer;
   width: 100%;
   object-fit: contain;
   max-height: 150px;
