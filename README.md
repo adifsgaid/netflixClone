@@ -19,6 +19,7 @@ This app uses:
 * React-on-rails: `12.0.4`
 * React-youtube: `7.13.0`
 
+
 ## Running it locally
 - run `bundle exec rails db:prepare`
 - run `npm install` or `yarn install`
