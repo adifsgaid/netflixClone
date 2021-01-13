@@ -6,7 +6,7 @@
 
 
 ---
-![NetflixClone Gif](https://github.com/adifsgaid/netflixClone/app/assets/images/img.gif)
+![NetflixClone Gif](https://github.com/adifsgaid/netflixClone/blob/master/app/assets/images/img.gif)
 
 ---
 
