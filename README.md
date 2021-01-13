@@ -18,7 +18,7 @@ This app uses:
 * React version: `17.0.1`
 * React-on-rails: `12.0.4`
 * React-youtube: `7.13.0`
-
+* **TMBD** Api
 
 ## Running it locally
 - run `bundle exec rails db:prepare`
